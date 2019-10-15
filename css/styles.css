@@ -11,6 +11,32 @@
 
 
 /* NAVBAR */
+.nav li a:hover, .navbar-default{
+    background-color: transparent;
+}
+
+.btn-primary, .btn-primary:hover, .navbar-default{
+    border-color: transparent;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #fff;
+    background-color: rgba(17, 17, 17, .5);
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #fcfcfc;
+    text-shadow: 1px 1px 2px #0a0a0a;
+}
+
+.navbar-default .navbar-nav li a:hover,
+.navbar-default .navbar-nav li a:focus {
+    color: #f8512f;
+    background-color: rgba(17, 17, 17, .2);
+}
+
 nav.navbar{
     position: absolute;
     top: 100;
@@ -41,8 +67,9 @@ nav.navbar{
     padding-bottom: 60px;
 }
 
-.main_logo{
-   
+.carousel-caption p{
+    color: #f7f7f7;
+    font-size: 16px;
 }
 
 .main_img1{
@@ -67,6 +94,6 @@ nav.navbar{
     background-color: #d34326;
 }
 
-.btn-primary, .btn-primary:hover{
-    border-color: transparent;
-}
+.main_logo{
+    max-height: 300px;
+ }
