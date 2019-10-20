@@ -5,6 +5,10 @@
     text-shadow: 1px 1px 5px #0a0a0a;
 }
 
+#our_story, #menu, #review, #contact{
+    min-height: 600px;
+}
+
 .red_orange{
     background-color: #f8512f;
 }
@@ -97,3 +101,69 @@ nav.navbar{
 .main_logo{
     max-height: 300px;
  }
+
+
+ /* OUR STORY SECTION */
+#our_story .row{
+    margin-top: 30px;
+}
+
+#our_story h1{
+    color: #f8512f;
+    font-size: 6em;
+}
+
+#our_story h1, #review h1{
+    font-family: 'Lobster', cursive;
+}
+
+#our_story h3, #our_story p, #review p{
+    font-family: 'Raleway', sans-serif;
+}
+
+#our_story h3{
+    font-weight: 700;
+    font-size: 2em;
+    margin-top: 0;
+}
+
+#our_story p{
+    font-weight: 300;
+}
+
+#story_year{
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 200px;
+    z-index: -1;
+    position: absolute;
+    color: rgba(149, 147, 147, 0.2);
+    /* CENTER THE YEAR (FLEXBOX) */
+}
+
+
+/* REVIEW SECTION */
+#review{
+    background-image: url('../img/food_review.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#review .center{
+    margin: 0 auto;
+    float: none;
+    background-color: rgba(20, 20, 20, .6);
+    padding: 10px;
+    margin-top: 145px;
+    border-radius: 5px;
+}
+
+#review h1{
+    font-size: 5em;
+    color: #f8512f;
+}
+
+#review p{
+    color: #fff;
+    font-weight: 300;
+    font-size: 2em;
+}
