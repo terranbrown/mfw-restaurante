@@ -13,6 +13,11 @@
     background-color: #f8512f;
 }
 
+.flex_center{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 
 /* NAVBAR */
 .nav li a:hover, .navbar-default{
@@ -137,7 +142,6 @@ nav.navbar{
     z-index: -1;
     position: absolute;
     color: rgba(149, 147, 147, 0.2);
-    /* CENTER THE YEAR (FLEXBOX) */
 }
 
 
